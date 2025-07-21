@@ -10,10 +10,10 @@ The factorial of 6 would be 6x5x4x3x2x1 = 720
 ### Challenges & Method for solving
 This quiz tested several core assembly and programming concepts. The main focus was using 
 register arithmetic and looping to build a program that computes a number’s factorial and 
-prints it to the console. I reused instructions like jmp, cmp, dec, and xor, along with 
+prints it to the console. I reused instructions like `jmp, cmp, dec, and xor,` along with 
 basic arithmetic operations, to control the loop and accumulate the product. The biggest 
 challenge was extracting the hundreds, tens, and ones digits for printing. Once I realized 
-I could use div by 100 and then by 10 to separate each place value’s quotient and remainder,
+I could use `div` by 100 and then by 10 to separate each place value’s quotient and remainder,
 it was just a matter of sequencing those divisions correctly. Finally, I converted each 
 raw numeric digit to its ASCII equivalent by adding '0' so the buffer held printable 
 characters.
